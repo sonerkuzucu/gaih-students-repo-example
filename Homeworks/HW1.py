@@ -14,4 +14,4 @@ Listx2 = [a*2 for a in List]
 print (Listx2)
 
 for x in range(len(Listx2)):
-  print (List[x], type(Listx2[x]))
+  print (Listx2[x], type(Listx2[x]))

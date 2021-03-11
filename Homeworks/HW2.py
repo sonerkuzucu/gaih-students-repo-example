@@ -2,6 +2,7 @@
 #Daha sonra içiçe 2 for döngüsü ile biraz da print format kullanarak düzgün bir görsel ile ekrana bastırdım.
 
 #Homework 2
+
 CV = {
   1 : {"Adi": "Ahmet", "Soyadi": "YILMAZ", "Dogum Tarihi": "12.05.1992", "Departman": "Satis", "Pozisyon": "Satis Oncesi", "Yabancı Dil ve Seviye": "ingilizce orta", "Askerli": "Tamamladi"},
   2 : {"Adi": "Ayse", "Soyadi": "TOPAC", "Dogum Tarihi": "02.07.1997", "Departman": "Satis", "Pozisyon": "Satis Temsilcisi", "Yabancı Dil ve Seviye": "ingilizce iyi", "Askerli": "Muaf"},
@@ -10,8 +11,11 @@ CV = {
   5 : {"Adi": "Ahmet", "Soyadi": "YILMAZ", "Dogum Tarihi": "12.05.1992", "Departman": "Satis", "Pozisyon": "Satis Oncesi", "Yabancı Dil ve Seviye": "ingilizce orta", "Askerli": "Tamamladi"}
     }
 for x, y in CV.items():
-  print("========================================================")
+  print("=".ljust(49, '='))
   print("CV ", x)
-  print("________________________________________________________")
+  print("_".ljust(49, '_'))
   for k, v in y.items():
     print(k.ljust(22, ' '), ": ", v)
+
+    
+   
